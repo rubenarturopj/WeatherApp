@@ -1,5 +1,7 @@
 # WeatherApp
 
+## [CLICK HERE FOR DEMO](https://weather-app-angular-plum.vercel.app/)
+
 Technologies used:
 
 Framework:
