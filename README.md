@@ -56,6 +56,10 @@ ng serve -o
 
 And go to `http://localhost:4200/` on your browser.
 
+### Credits
+
+[Sameer Saini](https://www.youtube.com/watch?v=psZXU8PTAS8)
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
