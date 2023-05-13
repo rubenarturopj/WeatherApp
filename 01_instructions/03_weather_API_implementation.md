@@ -2,6 +2,10 @@
 
 1. On the browser, go to `rapidapi.com` and look for `open weather map`. (sign ip if necessary). Choose method: Javascript and Fetch and grab the url `const url = 'https://open-weather-map27.p.rapidapi.com/weather';``.
 
+## Switched the API because the previous one wasn't working
+
+new api: `https://api.weatherapi.com/v1/current.json?key=c66c15e4a64946a0816185610231305&q=London&aqi=no`
+
 2. In the `app` folder, create a new folder called `services`.
 
 3. Go to the terminal and navigate to that new folder using the `cd` command.
@@ -27,7 +31,7 @@ export class WeatherService {
 Also import it on top.
 Add the URL from the api service.
 
-7. Create some variables in `environment.ts`.
+7. Create some variables in `environment.ts` and `environment.development.ts`.
 
 -   Newest version of ANGULAR doesn't have environments anymore. You can still add them by running:
 
@@ -43,4 +47,8 @@ ng generate environments
 
 11. Go back to `weather.service.ts` and map the response of the api call into this model. And import it on top.
 
-12. Go to `app.component.ts` and do the modifications there.
+12. Go to `app.component.ts` and do the modifications there so we can make the API call.
+
+# ⚠️ worth noting i changed the API and some steps got changed as well
+
+13. Check in the explorer, in the console, you should see the json returning succesfully
