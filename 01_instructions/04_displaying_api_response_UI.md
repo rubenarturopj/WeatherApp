@@ -5,3 +5,11 @@
 2. Go to `app.component.html`. Make a copy of the `<Container>` component and comment it out. This will be a backup. Wea re going to work on the other one.
 
 3. Create contidional rendering: `*ngIf="weatherData"` which is equivalent to reacts `{hasValue ? this : that/null }`. Start changing the rest of the values and make it dynamic.
+
+It all works great
+
+## Add the Search City input to render dynamically
+
+1. In `app.component.html` create another div to add the Search input.
+
+2. Syle this div.
