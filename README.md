@@ -8,9 +8,22 @@ Framework:
 
 External APIs:
 
--   `Open Weather Map` from `rapidapi.com`
+-   `WeatherAPI` from `weatherapi.com`
 
 Features:
+
+-   Fetches weather contidions in real time.
+-   Can search the temperature from all cities.
+
+### Instructions
+
+1. [Set up envionment](https://github.com/rubenarturopj/WeatherApp/blob/master/01_instructions/01_setup_environment.md)
+
+2. [Start building the UI](https://github.com/rubenarturopj/WeatherApp/blob/master/01_instructions/02_start_building.md)
+
+3. [API implementation](https://github.com/rubenarturopj/WeatherApp/blob/master/01_instructions/03_weather_API_implementation.md)
+
+4. [Displaying API reponse on the UI](https://github.com/rubenarturopj/WeatherApp/blob/master/01_instructions/04_displaying_api_response_UI.md)
 
 ## To install ANGULAR/CLI
 
