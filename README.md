@@ -1,6 +1,14 @@
 # WeatherApp
 
-Technologies use:
+Technologies used:
+
+Framework:
+
+-   ANGULAR
+
+External APIs:
+
+-   `Open Weather Map` from `rapidapi.com`
 
 Features:
 
